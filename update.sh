@@ -10,7 +10,7 @@ wget -nv ${REMOTE}/Readme.md  -O ${REP}/Readme.md
 wget -nv ${REMOTE}/replit.nix -O ${REP}/replit.nix
 wget -nv ${REMOTE}/replit     -O ${REP}/.replit
 wget -nv ${REMOTE}/update.sh  -O ${REP}/venv/bin/update.sh
-chmod +x ${REP}/.bin/update.sh
+chmod +x ${REP}/venv/bin/update.sh
 
 # baixando tk
 TKREMOTE="https://raw.githubusercontent.com/senapk/tk/master"
